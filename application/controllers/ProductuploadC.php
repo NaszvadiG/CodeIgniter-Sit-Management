@@ -84,7 +84,7 @@
 				$this->processInput($action = 'insert');
 			}
 		} 
-
+		
 		private function processInput($action = '') //插入資料庫的檔案處理
 		{
 			$this->imageFileProcess();
