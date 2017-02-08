@@ -2,9 +2,10 @@
 	/**
 	* 目前是上傳兩個檔案，若要新增至多個請修改 imageFileProcess()以及processInput()的檔案名稱索引
 	*
-	* http://www.codexworld.com/codeigniter-upload-multiple-files-images/
-	可以應付更多檔案且程式碼更少也會顯示錯誤/成功，但是沒有更改名稱。
+	* http://www.codexworld.com/codeigniter-upload-multiple-files-images/可以應付更多檔案且程式碼更少也會顯示錯誤/成功，但是沒有更改名稱。
 	*
+	* base_url() = http://[::1]/CodeIgniter-productupload/
+	* 圖片部分如果singer跟product的名稱一樣，是有可能發生讀取錯誤檔案的
 	*/
 	class ProductuploadC extends CI_Controller
 	{
@@ -83,7 +84,7 @@
 				$this->processInput($action = 'insert');
 			}
 		} 
-		
+
 		private function processInput($action = '') //插入資料庫的檔案處理
 		{
 			$this->imageFileProcess();
@@ -110,6 +111,7 @@
 			if ($action == 'insert') {
 				$this->Admin_model->insert_product($data); //前往model進行insert
 				$this->load->view('uploadsuccess');
+				//redirect('/ProductuploadC/do_what/uploadNew');
 			}
 		}
 		
