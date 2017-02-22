@@ -16,6 +16,7 @@
 	//this is from github~~
 	//this is me checking the changes after the second push
 	//the third time checking...
+	//a test in the fourth time
 >>>>>>> 905fffd93369d21f187eebf7541515e53aaa4323
 	class ProductuploadC extends CI_Controller
 	{
