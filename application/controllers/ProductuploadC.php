@@ -9,7 +9,12 @@
 	*/
 
 	//howard 2/22 adding from git local
+<<<<<<< HEAD
 	//this is a6432.chang from git local, again
+=======
+
+	//this is from github~~
+>>>>>>> 905fffd93369d21f187eebf7541515e53aaa4323
 	class ProductuploadC extends CI_Controller
 	{
 
