@@ -9,6 +9,8 @@
 	*/
 
 	//howard 2/22 adding from git local
+
+	//this is from github~~
 	class ProductuploadC extends CI_Controller
 	{
 
