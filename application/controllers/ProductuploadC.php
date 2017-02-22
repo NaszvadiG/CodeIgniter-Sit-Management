@@ -7,6 +7,8 @@
 	* base_url() = http://[::1]/CodeIgniter-productupload/
 	* 圖片部分如果singer跟product的名稱一樣，是有可能發生讀取錯誤檔案的
 	*/
+
+	//howard 2/22 adding from git local
 	class ProductuploadC extends CI_Controller
 	{
 
