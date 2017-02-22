@@ -12,7 +12,7 @@
 <<<<<<< HEAD
 	//this is a6432.chang from git local, again
 =======
-
+	// i love taiwan
 	//this is from github~~
 	//this is me checking the changes after the second push
 	//the third time checking...
